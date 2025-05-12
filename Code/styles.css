@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background: pink;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #allow {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #block {
+    background-color: #f44336;
+    color: white;
+  }
+  

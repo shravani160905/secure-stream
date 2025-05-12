@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "SecureDownload - Verify Before Download",
+    "version": "1.0",
+    "description": "Adds a verification step before downloading files.",
+    "permissions": ["downloads", "downloads.shelf"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "SecureDownload"
+    },
+    "host_permissions": ["<all_urls>"],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
